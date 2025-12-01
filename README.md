@@ -1,5 +1,6 @@
 # sync-brave
 
+[![npm version](https://img.shields.io/npm/v/sync-brave?style=flat-square&logo=npm)](https://www.npmjs.com/package/sync-brave)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 ![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square&logo=node.js&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey?style=flat-square)
@@ -8,22 +9,28 @@
 
 Trigger Brave browser sync externally via Chrome DevTools Protocol.
 
+## Quick Start
+
+Run directly with npx (no install required):
+
+```bash
+npx sync-brave
+```
+
 ## Installation
+
+### Global install
+
+```bash
+npm install -g sync-brave
+sync-brave
+```
+
+### Local development
 
 ```bash
 pnpm install
-```
-
-## Usage
-
-```bash
 pnpm start
-```
-
-Or run directly:
-
-```bash
-node src/main.js
 ```
 
 ## What it does
@@ -50,6 +57,10 @@ If Brave is installed elsewhere, edit `getBravePath()` in `src/main.js`.
 - Node.js 18+
 - Brave Browser installed
 - [puppeteer-core](https://github.com/puppeteer/puppeteer) (installed via npm/pnpm)
+
+## Author
+
+**Jay Simons** — [yaa.bz](https://yaa.bz) — [j@yaa.bz](mailto:j@yaa.bz)
 
 ## License
 

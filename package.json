@@ -1,6 +1,6 @@
 {
   "name": "sync-brave",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Trigger Brave browser sync externally via Chrome DevTools Protocol with a simple CLI command",
   "author": {
     "name": "Jay Simons",
@@ -20,9 +20,24 @@
     "sync",
     "browser",
     "puppeteer",
-    "automation"
+    "automation",
+    "cli"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designly1/sync-brave.git"
+  },
+  "bugs": {
+    "url": "https://github.com/designly1/sync-brave/issues"
+  },
+  "homepage": "https://github.com/designly1/sync-brave#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src"
+  ],
   "dependencies": {
     "puppeteer-core": "^23.9.0"
   }
