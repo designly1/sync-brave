@@ -1,0 +1,29 @@
+{
+  "name": "sync-brave",
+  "version": "1.0.0",
+  "description": "Trigger Brave browser sync externally via Chrome DevTools Protocol",
+  "author": {
+    "name": "Jay Simons",
+    "email": "j@yaa.bz",
+    "url": "https://yaa.bz"
+  },
+  "type": "module",
+  "main": "src/main.js",
+  "bin": {
+    "sync-brave": "src/main.js"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "brave",
+    "sync",
+    "browser",
+    "puppeteer",
+    "automation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^23.9.0"
+  }
+}
